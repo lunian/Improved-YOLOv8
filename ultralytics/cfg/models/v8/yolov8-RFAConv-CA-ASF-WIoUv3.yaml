@@ -2,7 +2,7 @@
 # YOLOv8 object detection model with P3-P5 outputs. For Usage examples see https://docs.ultralytics.com/tasks/detect
 
 # Parameters
-nc: 3  # number of classes
+nc: 45  # number of classes  TT100K_2021:45       CCTSDB_2021:3
 scales: # model compound scaling constants, i.e. 'model=yolov8n.yaml' will call yolov8.yaml with scale 'n'
   # [depth, width, max_channels]
   n: [0.33, 0.25, 1024]  # YOLOv8n summary: 225 layers,  3157200 parameters,  3157184 gradients,   8.9 GFLOPs
@@ -48,6 +48,5 @@ head:
 
   - [[4, 6, 8], 1, ScalSeq, [256]] # 25 args[inchane]
   - [[18, -1], 1, Add, []] # 26
-  # - [[18, -1], 1, asf_attention_model, []] # 26
 
   - [[26, 21, 24], 1, Detect, [nc]]  # RTDETRDecoder(P3, P4, P5)
