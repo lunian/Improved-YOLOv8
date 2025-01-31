@@ -1,10 +1,9 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
 path:   #  TT100K_2021 dataset root dir (An absolute path is best)
-train: images\train  # train images (relative to 'path')  
-val: images\val  # val images (relative to 'path') 
-test: images\test  # test images (optional) 
-
+train: images\train  # train images
+val: images\val  # val images
+test: images\test  # test images
 # Classes      45类
 names:
   0: pl80
