@@ -1,7 +1,8 @@
 1.First install the environment：
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 2.Download the datasets to the specified location and place it correctly
+  The link to the datasets is:
 
 3.Configure several paths in the TT100K_2021.yaml file
 
