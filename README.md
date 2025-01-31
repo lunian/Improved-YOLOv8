@@ -1,7 +1,7 @@
 1.First install the environment.
   pip install -r requirements.txt
 
-2.Download the datasets to the specified location and place it correctly,All are public datasets.
+2.Once the dataset is downloaded to the specified location for processing and placed correctly, it is a public dataset.
   The link to the datasets is:
   TT100K_2021:https://cg.cs.tsinghua.edu.cn/traffic-sign/
   CCTSDB_2021:https://github.com/csust7zhangjm/CCTSDB2021
