@@ -13,3 +13,8 @@
 3.Configure several paths in the TT100K_2021.yaml file.
 
 4.Execute python train.py to start training.
+
+
+
+《Enhanced YOLOv8n for Traffic Sign Detection with Improved Feature Extraction and Fusion》
+ The Visual Computer
