@@ -6,6 +6,9 @@
   TT100K_2021:https://cg.cs.tsinghua.edu.cn/traffic-sign/
   CCTSDB_2021:https://github.com/csust7zhangjm/CCTSDB2021
 
+  process.py:The TT100K_2021 dataset was processed to obtain the YOLO format dataset, and a large number of 45 categories of traffic sign pictures were filtered. 
+  split_data.py:The TT100K_2021 dataset is divided into a 7:1:2 ratio.
+
 3.Configure several paths in the TT100K_2021.yaml file.
 
 4.Execute python train.py to start training.
