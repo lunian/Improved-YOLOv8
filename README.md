@@ -16,10 +16,7 @@
 
 
 
+Title:
+Enhanced YOLOv8n for Traffic Sign Detection with Improved Feature Extraction and Fusion
 
-
-
-
-《Enhanced YOLOv8n for Traffic Sign Detection with Improved Feature Extraction and Fusion》
-
-Machine Vision and Applications
+《Machine Vision and Applications》
